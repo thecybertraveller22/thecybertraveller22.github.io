@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admissions@ Fast NUCES</title>
+        <style>
+           
+            body, ul {
+                margin: 0;
+                padding: 0;
+            }
+
+           
+            .taskbar {
+                display: flex;
+                align-items: center;
+                background-color: black;
+                padding: 10px;
+            }
+
+            .taskbar img {
+                height: 40px;
+                margin-right: 20px;
+            }
+
+            .taskbar ul {
+                list-style: none;
+                display: flex;
+            }
+
+            .taskbar ul li {
+                margin-right: 20px;
+            }
+
+            .taskbar ul li a {
+                color: yellow;
+                text-decoration: none;
+                font-size: 16px;
+                padding: 8px 12px;
+                display: block;
+            }
+
+            .taskbar ul li a:hover {
+                background-color: Red;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body style="background-color: beige;">
+        <div class="taskbar">
+            <a href="Home.html"><img src="Uni.png" alt="Logo"></a>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Academics.html">Academics</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Student Registeration</h2>
+            <form method="post">
+                <div >
+                    <label for="fname">First Name:</label>
+                    <input type"text" id="firstname" name="firstname" required>
+                </div>
+                <div >
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div >
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div >
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div >
+                    <label for="department">Department:</label>
+                    <select id="department" name="department" required>
+                        <option value="">Select Department</option>
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Cyber Security">Cyber Security</option>
+
+                    </select>
+                </div>
+                <div >
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div >
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

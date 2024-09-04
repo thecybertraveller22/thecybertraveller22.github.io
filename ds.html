@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Structures Course</title>
+        <style>
+            
+            body, ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            
+            .taskbar {
+                display: flex;
+                align-items: center;
+                background-color: black;
+                padding: 10px;
+            }
+
+            .taskbar img {
+                height: 40px;
+                margin-right: 20px;
+            }
+
+            .taskbar ul {
+                list-style: none;
+                display: flex;
+            }
+
+            .taskbar ul li {
+                margin-right: 20px;
+            }
+
+            .taskbar ul li a {
+                color: yellow;
+                text-decoration: none;
+                font-size: 16px;
+                padding: 8px 12px;
+                display: block;
+            }
+
+            .taskbar ul li a:hover {
+                background-color: Red;
+                border-radius: 4px;
+            }
+            ul.department-list {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            ul.department-list li {
+                margin-bottom: 20px;
+            }
+
+            ul.course-list {
+                list-style-type: disc;
+                margin-left: 20px;
+            }
+
+            ul.course-list li a {
+                color: blue;
+                text-decoration: none;
+            }
+
+            ul.course-list li a:hover {
+                text-decoration: underline;
+            }
+            table,th,td{
+
+				border: 5px solid black;
+				border-collapse: collapse;
+				padding: 20px;
+				margin-left: 550px;
+                
+			}
+            .f1{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body style="background-color: beige;">
+        <div class="taskbar">
+            <a href="Home.html"><img src="Uni.png" alt="Logo"></a>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Academics.html">Academics</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="f1">
+            <h1>Data Structures</h1>
+            <p>Data Structures is a foundational course that delves into the organization, storage, and management of data in a computer. Students will explore a variety of data structures such as arrays, linked lists, stacks, queues, trees, graphs, and hash tables. The course emphasizes understanding the efficiency of different data structures in terms of time and space complexity. Through theoretical concepts and practical programming exercises, students will learn how to implement and apply data structures to solve complex computational problems. This course is essential for anyone aiming to develop efficient algorithms and improve their problem-solving skills in computer science.</p>
+        </div>
+        <div>
+            
+            <ul class="department-list">
+                <li>
+                    <strong>Teachers:</strong>
+                    <ul class="course-list">
+                        <li>Noman Aziz {BS-Software-Engineiring}</li>
+                        <li>Faraz Ul Ahmed {BS-Computer-Science}</li>
+                    </ul>
+                </li>
+                 
+            </ul>
+            
+        </div>
+
+        <div class="f1">
+            <table>
+                <tr>
+                    <th>Block</th>
+                    <th>Room</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>222</td>
+                    <td>08:25-10:15</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>410</td>
+                    <td>09:30-11:45</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

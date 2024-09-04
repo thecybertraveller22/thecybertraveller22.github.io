@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gallery</title>
+        <style>
+        
+            body, ul {
+                margin: 0;
+                padding: 0;
+            }
+
+           
+            .taskbar {
+                display: flex;
+                align-items: center;
+                background-color: black;
+                padding: 10px;
+            }
+
+            .taskbar img {
+                height: 40px;
+                margin-right: 20px;
+            }
+
+            .taskbar ul {
+                list-style: none;
+                display: flex;
+            }
+
+            .taskbar ul li {
+                margin-right: 20px;
+            }
+
+            .taskbar ul li a {
+                color: yellow;
+                text-decoration: none;
+                font-size: 16px;
+                padding: 8px 12px;
+                display: block;
+            }
+
+            .taskbar ul li a:hover {
+                background-color: Red;
+                border-radius: 4px;
+            }
+            .i1 {
+                display: block;
+                margin: 20px auto; 
+                width: 600px; 
+                height: auto; 
+                border: 5px solid #480505; 
+                border-radius: 15px; 
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+                transition: transform 0.3s, box-shadow 0.3s; 
+            }
+            h1{
+                text-align: center;
+                font-size: 50px;
+            }
+        </style>
+    </head>
+    <body style="background-color: beige;">
+        <div class="taskbar">
+            <a href="Home.html"><img src="Uni.png" alt="Logo"></a>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Academics.html">Academics</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <h1 id="h1">Gallery</h1>
+            <img class="i1" src="uni2.jpg" alt="uni pic"> 
+            <img class="i1" src="uni3.jpg" alt="karachi "> 
+            <img class="i1" src="student1.jpeg" alt="students"> 
+            <img class="i1" src="student2.jpg" alt="students auditorium"> 
+        </div>
+    </body>
+</html>
